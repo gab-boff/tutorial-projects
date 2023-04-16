@@ -1,0 +1,26 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+
+  display: flex;
+  justify-content: center;
+}
+
+.App {
+  min-width: none;
+  min-height: 60vh;
+
+  padding: 50px;
+  margin-top: 50px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  background-color: white;
+  color: black;
+
+  border-radius: 20px;
+}
